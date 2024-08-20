@@ -1,0 +1,316 @@
+/* font-faimly  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/*global start*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+:root {
+   
+    --black: #1D1D1D;
+    --common-bg:#F9FAFB;
+    --red:#FF1B1B;
+    --red-light:#FFCECF;
+    --green:#00D93E;
+    --light-green:rgba(0, 200, 136, 0.14);
+    --light-gray:#667085;
+    --rubik: "Rubik", sans-serif;
+    --dancing:"Dancing Script", cursive;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+span {
+    display: inline-block;
+}
+summary {
+    list-style-type: none;
+}
+
+figure{
+    margin:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--black);
+    text-transform: none;
+}
+.container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-cols-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-cols-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.item {
+    width: 100%;
+}
+
+header.site-header {
+    padding: 80px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header.site-header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav.site-nav {
+    width: 400px;
+    background: #ffffff57;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(30px);
+    transform: translateX(100%);
+    padding: 80px;
+}
+
+
+
+nav.site-nav a {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    display: block;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px #000;
+}
+
+nav.site-nav > i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    background: #fff;
+    border-radius: 50%;
+    width: 35px;
+    aspect-ratio: 1;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.menu-btn {
+    font-size: 30px;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+}
+.section-title {
+    color: #73AD59;
+    text-align: center;
+    font-family: "Dancing Script";
+    font-size: 98px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+/* site banner start  */
+.site-banner {
+    background: linear-gradient(0deg, #202121 1.04%, #181818 61.72%, #022432 133.91%);
+    /* padding: 180px 0 150px; */
+    height: 936px;
+}
+.site-banner-warp .grid {
+    grid-template-columns: 1fr 1.2fr;
+    grid-gap: 20px;
+}
+.site-banner .container {
+    height: 100%;
+}
+.site-banner  .site-banner-warp {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-content h2 {
+    color: #7FC849;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125.5%;
+    margin: 0 0 80px;
+}
+.banner-content h2 b {
+    font-weight: 700;
+    font-size: 64px;
+}
+.M-clr_btn {
+    background: linear-gradient(to right, #02586A, #85C66A );
+    display: inline-block;
+    padding: 2px;
+    border-radius: 80px;
+    overflow: hidden;
+}
+.M-clr_btn-inner {
+    padding: 2px;
+    background: #1d1e1e;
+    border-radius: inherit;
+}
+.M-clr_btn a {
+    padding: 10px 50px;
+    border-radius: inherit;
+    background: -webkit-linear-gradient(#02586a, #85c66a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--rubik);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 180%;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+}
+
+/* vdieo sec  */
+.video-sec video {
+    display: block;
+}
+
+/* .video-sec {
+    height: 998px;
+} */
+
+/* .video-sec video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+
+
+/* testimonial start  */
+.testimonial {
+    padding: 80px 0 150px;
+    background: url("../images/testimonial-bg.png");
+    background-blend-mode: screen;
+}
+.testimonial-card-warp {
+    margin-top: 50px;
+}
+.testimonial-card-warp > .grid {
+    grid-gap: 60px;
+}
+.testimonial-content > p {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: uppercase;
+    max-width: 1070px;
+    margin-left: auto;
+}
+.testimonial-content .section-title {
+    text-align: left;
+    max-width: 1080px;
+    margin-left: auto;
+}
+.card_img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card_content {
+    background: #D9D9D9;
+    padding: 63px 35px 43px;
+    position: relative;
+    min-height: 390px;
+}
+
+.quote-icon {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+}
+.testimonial-card .quote-icon {
+    position: absolute;
+    top: 0;
+    left: auto;
+    transform: translateY(-50%);
+}
+.card_content p {
+    color: #6D6F70;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    text-transform: capitalize;
+}
+/* testimonial end  */
