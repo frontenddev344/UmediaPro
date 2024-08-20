@@ -329,3 +329,51 @@ nav.site-nav > i {
     text-transform: capitalize;
 }
 /* testimonial end  */
+/* site-footer */
+.site-footer {
+    padding: 80px 0;
+    background: #313131;
+}
+
+.footer-content > h2 {
+    text-align: center;
+    font-family: Lato;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    background: linear-gradient(88deg, #95E871 17.98%, #406965 48.71%, #B59CA2 80.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-social ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 65px;
+    margin-bottom: 42px;
+}
+.footer-social ul li a {
+    color: #73AD59;
+    font-size: 30px;
+}
+.footer-social p {
+    color: #656565;
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 79px 0 132px;
+}
