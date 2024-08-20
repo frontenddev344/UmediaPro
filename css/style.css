@@ -260,6 +260,15 @@ nav.site-nav > i {
 }
 .testimonial-card-warp {
     margin-top: 50px;
+    position: relative;
+    isolation: isolate;
+}
+.testimonial-card-warp .qoute-img {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    transform: translate(-100%, -100%);
+    z-index: -1;
 }
 .testimonial-card-warp > .grid {
     grid-gap: 60px;
