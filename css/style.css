@@ -119,6 +119,7 @@ header.site-header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 99;
 }
 header.site-header .container{
     display: flex;
@@ -183,6 +184,12 @@ nav.site-nav > i {
     background: linear-gradient(0deg, #202121 1.04%, #181818 61.72%, #022432 133.91%);
     /* padding: 180px 0 150px; */
     height: 936px;
+    position: relative;
+}
+.ray-img {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 .site-banner-warp .grid {
     grid-template-columns: 1fr 1.2fr;
@@ -231,7 +238,6 @@ nav.site-nav > i {
     font-family: var(--rubik);
     font-size: 28px;
     font-weight: 500;
-    line-height: 180%;
     letter-spacing: 2.8px;
     text-transform: uppercase;
 }
