@@ -61,34 +61,56 @@ gsap.to(".box",{
     
 
     // stacking card 
+    // gsap.registerPlugin(ScrollTrigger);
 
-    const cards = gsap.utils.toArray(".card");
-
-cards.forEach((card, index) => {
-  const tween = gsap.to(card, {
-    scrollTrigger: {
-      trigger: card,
-      start: () => `top bottom-=100`,
-      end: () => `top top+=40`,
-      scrub: true,
-      markers: true,
-      invalidateOnRefresh: true
-    },
-    ease: "none",
-    scale: () => 1 - (cards.length - index) * 0.025
-  });
-
-  ScrollTrigger.create({
-    trigger: card,
-    start: "top top",
-    pin: true,
-    pinSpacing: false,
-    markers: true,
-    id: 'pin',
-    end: 'max',
-    invalidateOnRefresh: true,
-  });
-});
+    // const cards  = document.querySelectorAll('.card');
+    // // const header  = document.querySelector('.header');
+    // const animation = gsap.timeline()
+    // let cardHeight
+  
+  
+  
+    // function initCards(){
+    //   animation.clear()
+    //   cardHeight = cards[0].offsetHeight
+    //   console.log("initCards()", cardHeight)
+    //   cards.forEach((card, index) => {
+    //     if(index > 0){
+    //     //increment y value of each card by cardHeight
+    //       gsap.set(card, {y:index * cardHeight})
+    //     //animate each card back to 0 (for stacking)
+    //       animation.to(card, {y:0, duration:index*0.5, ease:"none"},0)
+  
+    //     }
+    //   })
+    // }
+  
+    // initCards()
+  
+    // ScrollTrigger.create({
+    //   trigger:".card-wrapper",
+    //   start:"top top",
+    //   pin:true,
+    //   end:()=>`+=${(cards.length * cardHeight)}`,
+    //   scrub:true,
+    //   animation:animation,
+    //   markers:true,
+    //   invalidateOnRefresh:true
+    // })
+  
+    // ScrollTrigger.addEventListener("refreshInit", initCards)
+  
+  
+    // Become a GSAP and ScrollTrigger Pro
+    // visit https://www.creativecodingclub.com/ 
+    // Unlock over 200 lessons and get new lessons weekly
+  
+    //automate scroll
+    /* gsap.delayedCall(1, ()=>{
+      gsap.to(window, {scrollTo:{y:"max", autoKill:true}, duration:15, repeat:1, yoyo:true, repeatDelay:1, ease:"none"})
+  
+    })
+     */
 
 
 // accordtion start 
