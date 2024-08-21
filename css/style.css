@@ -454,12 +454,114 @@ nav.site-nav > i {
     font-weight: 500;
     line-height: 51.5px;
 }
-/* views-sec end  */ 
+/* views-sec end  */
+/* the-diffrences start  */
+.the-diffrences {
+    padding: 40px 0;
+}
+.diff-heading {
+    text-align: center;
+    font-family: Lato;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    text-transform: uppercase;
+    background: linear-gradient(88deg, #95E871 17.98%, #406965 48.71%, #B59CA2 80.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.the-diffrences-wrap {
+    max-width: 1150px;
+    margin: 80px auto 0;
+}
+.the-diffrences-wrap .grid {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.media-logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.media-logo span {
+    width: 100%;
+    color: #555D67;
+    font-family: var(--rubik);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-top: -30px;
+}
+.media-logo img[alt="umediaprologobg"] {
+    width: 100%;
+    max-width: 448px;
+    margin-right: 100px;
+}
+.media-text h3 {
+    color: #979797;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    max-width: 324px;
+}
+
+/* the-diffrences end  */
+/* benefits start  */
+.benefits {
+    padding: 120px 0 150px;
+    background: url("../images/strip-shape.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.benefits-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+
+}
+.benefits-list ul li {
+    position: relative;
+    padding: 40px 0;
+}
+.benefits-list ul li::before {
+    content: "";
+    position: absolute;
+    background: url("../images/dotted-line.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 1px;
+    top: 100%;
+    left: 0;
+}
+.check-list li {
+    display: grid;
+    grid-template-columns: auto  1fr;
+    grid-gap: 30px;
+}
+.check-list li p {
+    color: #21273C;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+.cross-list .cross {
+    text-align: center;
+}
+/* benefits end  */
 /* testimonial start  */
 .testimonial {
     padding: 80px 0 150px;
     background: url("../images/testimonial-bg.png");
-    background-blend-mode: screen;
 }
 .testimonial-card-warp {
     margin-top: 50px;
