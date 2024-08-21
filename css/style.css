@@ -395,6 +395,93 @@ nav.site-nav > i {
 /* faq start  */
 .faq-sec {
     padding: 80px 0;
+    position: relative;
+}
+
+.acc-container {
+    width: 100%;
+  }
+  
+.acc {
+    margin-bottom: 28px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.16);
+}
+  
+.acc-head {
+    padding: 50px;
+    font-size: 22px;
+    position: relative;
+    cursor: pointer;
+    padding-left: 120px;
+}
+  
+   .acc-head::before,
+   .acc-head::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    transition: all .3s;
+   }
+
+.acc-head::before {
+    left: 65px;
+    width: 2px;
+    height: 20px;
+    margin-top: -10px;
+}
+  
+.acc-head::after {
+    left: 56px;
+    width: 20px;
+    height: 2px;
+    margin-top: -1px;
+}
+  .acc-head.active::before, .acc-head.active::after {
+    background: #73AD59;
+}
+  .acc-head p {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .acc-content {
+    padding: 0 10px 50px 120px;
+    margin-top: -10px;
+    display: none;
+}
+          
+  .acc-head.active::before {
+      transform: rotate(90deg);
+  }
+  
+  .acc-content p {
+    color: #21273C;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 51.5px;
+}
+.acc-head h4 {
+    color: #21273C;
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 51.5px;
+}
+.faq-shape-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.faq-shape-2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 /* site-footer */
 .site-footer {

@@ -89,3 +89,13 @@ cards.forEach((card, index) => {
     invalidateOnRefresh: true,
   });
 });
+
+
+// accordtion start 
+
+$(document).ready(function(){
+  $(".acc-head").click(function(){
+    $(this).next().slideToggle().parent().siblings().find(".acc-content").slideUp();
+    $(this).toggleClass("active").parent().siblings().find(".acc-head").removeClass("active");
+  });
+});
