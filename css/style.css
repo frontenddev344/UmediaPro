@@ -23,7 +23,7 @@ body {
     --common-bg:#F9FAFB;
     --red:#FF1B1B;
     --red-light:#FFCECF;
-    --green:#00D93E;
+    --green:#85C66A;
     --light-green:rgba(0, 200, 136, 0.14);
     --light-gray:#667085;
     --rubik: "Rubik", sans-serif;
@@ -736,6 +736,70 @@ nav.site-nav > i {
     transform: translateX(-50px);
     height: 100%;
     width: 100%;
+}
+/* just-imagine start  */
+.just-imagine {
+    padding: 80px 0;
+}
+.just-imagine-wrap .grid {
+    align-items: center;
+    grid-gap: 10px;
+}
+.just-imagine-content .M-clr_btn-inner {
+    background: #fff;
+}
+.just-imagine-content h4, .just-imagine-content h3 {
+    color: #555D67;
+    font-family: var(--rubik);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 128.5%;
+}
+.just-imagine-content h3{
+    font-size: 60px;
+}
+.just-imagine-content p {
+    color: #555D67;
+    font-family:var(--rubik);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 128.5%;
+}
+.just-imagine-content p span {
+    color: #85C66A;
+    font-weight: 500;
+}
+.just-imagine-content .M-clr_btn {
+    margin-top: 50px;
+}
+.timing {
+    text-align: right;
+    padding-right: 80px;
+    position: relative;
+}
+.timing button {
+    color: #555D67;
+    font-family: var(--rubik);
+    font-size: 28px;
+    line-height: 128.5%;
+    background: #fff;
+    border: 2px solid var(--green);
+    border-radius: 60px;
+    font-style: italic;
+    padding: 5px 20px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.time {
+    font-size: max(30vw,200px );
+    line-height: 1;
+    font-family: 'Digital-7';
+    color: var(--green);
 }
 /* site-footer */
 .site-footer {

@@ -121,3 +121,15 @@ $(document).ready(function(){
     $(this).toggleClass("active").parent().siblings().find(".acc-head").removeClass("active");
   });
 });
+
+let time = 90;
+let timeEl = document.querySelector(".time");
+let timer = setInterval(function(){
+  timeEl.innerHTML = time;
+  if(time <= 0){
+    clearInterval(timer);
+  } else {
+    time--;
+  }
+}, 500);
+
