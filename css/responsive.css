@@ -30,12 +30,18 @@
     .banner-content h2 b {
         font-size: 48px;
     }
+    .ray-img {
+        top: 0;
+    }
     .speaker {
         transform: translate(-130px, 40px);
         max-width: 290px;
     }
     .M-clr_btn a {
         font-size: 20px;
+    }
+    .views-card .top-content h4 {
+        font-size: 92px;
     }
     .views-card .btm-content {
         margin-top: 25px;
@@ -107,9 +113,13 @@
     }
     .acc-head h4 {
         font-size: 22px;
+        line-height: normal;
     }
     .acc-content p {
         font-size: 20px;
+    }
+    .views-sec {
+        padding: 120px 0 40px;
     }
 }
 @media screen and (max-width:991px){
@@ -187,14 +197,33 @@
     .acc-head::after {
         left: 31px;
     }
+    .views-card .btm-content h6 {
+        font-size: 28px;
+        line-height: normal;
+    }
+    .views-card .btm-content span {
+        font-size: 22px;
+        line-height: normal;
+    }
+    .footer-content > h2 {
+        font-size: 48px;
+    }
+    .the-diffrences-wrap {
+        margin: 80px auto 0;
+    }
 }
 @media screen and (max-width:768px){
     .site-banner-warp .grid {
         grid-template-columns: 100%;
+        grid-gap: 60px;
     }
     .site-banner {
         height: auto;
         padding: 180px 0 120px;
+    }
+    .speaker {
+        transform: translate(-50%, 60px);
+        left: 50%;
     }
     .stack-cards .card  p {
         font-size: 40px;
@@ -230,7 +259,8 @@
         margin: 30px 0;
     }
     .benefits-list {
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2.2fr 1fr;
+        grid-gap: 15px;
     }
     .just-imagine-wrap .grid {
         grid-template-columns: 100%;
@@ -256,18 +286,87 @@
     .footer-social p {
         font-size: 20px;
     }
+    .views-card .top-content {
+        width: 230px;
+    }
+    .views-card .top-content h4 {
+        font-size: 68px;
+    }
+    .views-card .top-content::before {
+        inset: 5px;
+    }
+    .stack-cards {
+        padding: 80px 0;
+    }
+    .stack-cards .card {
+        min-height: 350px;
+    }
+    .stack-cards .card  p {
+        font-size: 34px;
+    }
+    .quote-icon {
+        width: 66px;
+        height: 66px;
+    }
+    .card_content p {
+        font-size: 22px;
+    }
 }
 
 @media screen and (max-width:575px){
+    .benefits {
+        padding: 40px 0 80px;
+    }
     .benefits-list {
         grid-template-columns: 1fr auto;
     }
     .footer-social ul {
         gap: 20px;
     }
+    .card_content {
+        min-height: 301px;
+    }
+    .stack-cards .card {
+        min-height: 270px;
+        padding: 20px;
+    }
+    .stack-cards .card  p {
+        font-size: 26px;
+    }
+    .just-imagine-content .M-clr_btn a {
+        padding: 10px 25px;
+    }
+    .primary-btn a {
+        font-size: 16px;
+        padding: 8px 30px;
+    }
+    .M-clr_btn a {
+        font-size: 16px;
+    }
+    .site-footer {
+        padding: 80px 0 30px;
+    }
+    .footer-middle {
+        margin: 60px 0 60px;
+    }
+    .dot-shape img {
+        max-width: 120px;
+    }
+    .acc-head h4 {
+        font-size: 20px;
+    }
+    .acc-content p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width:460px){
-   
+    .benefits-list ul li {
+        padding: 15px 0;
+        grid-gap: 15px;
+    }
+    .check-list li p {
+        font-size: 16px;
+    }
     
 }
