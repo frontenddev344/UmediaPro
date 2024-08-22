@@ -121,6 +121,18 @@
     .views-sec {
         padding: 120px 0 40px;
     }
+    .faq-shape-1 img {
+        max-width: 180px;
+    }
+    .faq-shape-2 {
+        bottom: -70px;
+        height: auto;
+    }
+    .faq-shape-2 img {
+        height: auto;
+        width: 100%;
+        max-width: 160px;
+    }
 }
 @media screen and (max-width:991px){
     .site-banner {
