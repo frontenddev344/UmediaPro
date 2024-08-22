@@ -652,9 +652,8 @@ nav.site-nav > i {
 /* testimonial end  */
 /* faq start  */
 .faq-sec {
-    padding: 100px 0 150px;
+    padding: 100px 0 20px;
     position: relative;
-    overflow: hidden;
 }
 .faq-sec .container {
     max-width: 1400px;
@@ -748,17 +747,20 @@ nav.site-nav > i {
 .faq-shape-1 {
     position: absolute;
     right: 0;
-    top: -200px;
+    top: 0;
+    overflow: hidden;
+}
+.faq-shape-1 img {
+    transform: translateY(-200px);
 }
 .faq-shape-2 {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -185px;
     overflow: hidden;
     height: 742px;
 }
 .faq-shape-2 img {
-    transform: translateX(-20px);
     height: 100%;
     width: 100%;
 }
