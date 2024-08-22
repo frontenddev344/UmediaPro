@@ -406,6 +406,9 @@
     .faq-sec-content {
         margin-top: 40px;
     }
+    .stack-cards {
+        padding: 40px 0;
+    }
 }
 
 @media screen and (max-width:460px){
