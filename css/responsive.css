@@ -38,19 +38,110 @@
     .stack-cards .card {
         min-height: 450px;
     }
+    .media-logo img[alt="umediaprologobg"] {
+        margin-right: 50px;
+        max-width: 350px;
+    }
+    .the-diffrences-wrap {
+        max-width: 940px;
+    }
+    .media-text h3 {
+        font-size: 40px;
+    }
+    .check-list li p {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .benefits-list ul li img {
+        max-width: 25px;
+        aspect-ratio: 1;
+    }
+    .benefits-list ul li {
+        padding: 25px 0;
+    }
 }
 @media screen and (max-width:991px){
     .site-banner {
         height: 600px;
         padding-top: 100px;
-    } 
+    }
+    .stack-cards .card  p {
+        font-size: 48px;
+    }
+    .footer-middle p {
+        font-size: 22px;
+    }
+    .footer-middle p a {
+        font-size: 22px;
+    }
+    .primary-btn a {
+        font-size: 18px;
+        padding: 10px 30px;
+    }
+    .footer-middle {
+        margin: 79px 0 90px;
+    }
+    .media-logo {
+        justify-content: space-between;
+        max-width: 500px;
+    }
+    .media-logo img[alt="umediaprologobg"] {
+        margin-right: 30px;
+        max-width: 290px;
+    }
+    .media-text h3 {
+        font-size: 28px;
+    }
+    .media-logo img {
+        max-width: 100px;
+    }
+    .check-list li p {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width:768px){
-    
+    .stack-cards .card  p {
+        font-size: 40px;
+    }
+    .the-diffrences-wrap .grid {
+        grid-template-columns: 100%;
+    }
+    .media-logo {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .media-logo img[alt="umediaprologobg"] {
+        order: 1;
+    }
+    .media-logo span {
+        order: 2;
+        text-align: center;
+        font-size: 22px;
+        max-width: max-content;
+        margin-right: 140px;
+    }
+    .media-logo img {
+        order: 3;
+    }
+    .media-text h3 {
+        font-size: 24px;
+        margin: 0 auto;
+    }
+    .media-logo img[alt="arrow-right"] {
+        transform: rotate(90deg);
+        margin: 30px 0;
+    }
+    .benefits-list {
+        grid-template-columns: 2fr 1fr;
+    }
 }
 
 @media screen and (max-width:575px){
-    
+    .benefits-list {
+        grid-template-columns: 1fr auto;
+    }
 }
 
 @media screen and (max-width:460px){

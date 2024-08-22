@@ -26,7 +26,7 @@ body {
     --green:#85C66A;
     --light-green:rgba(0, 200, 136, 0.14);
     --light-gray:#667085;
-    --var(--rubik): "var(--rubik)", sans-serif;
+    --rubik: "Rubik", sans-serif;
     --dancing:"Dancing Script", cursive;
 }
 
@@ -499,6 +499,7 @@ nav.site-nav > i {
 .the-diffrences-wrap .grid {
     grid-template-columns: 1fr auto;
     align-items: center;
+    grid-gap: 20px;
 }
 
 .media-logo {
@@ -509,7 +510,7 @@ nav.site-nav > i {
 .media-logo span {
     width: 100%;
     color: #555D67;
-    font-family: var(--var(--rubik));
+    font-family:var(--rubik);
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
@@ -528,6 +529,7 @@ nav.site-nav > i {
     font-weight: 500;
     line-height: 130%;
     max-width: 324px;
+    text-align: center;
 }
 
 /* the-diffrences end  */
