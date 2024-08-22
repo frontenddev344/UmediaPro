@@ -248,7 +248,7 @@ nav.site-nav > i {
     background: -webkit-linear-gradient(0deg, #02586a, #85c66a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: var(--var(--rubik));
+    font-family: var(--rubik);
     font-size: 28px;
     font-weight: 500;
     letter-spacing: 2.8px;
@@ -794,7 +794,7 @@ nav.site-nav > i {
 }
 .just-imagine-content h4, .just-imagine-content h3 {
     color: #555D67;
-    font-family: var(--var(--rubik));
+    font-family: var(--rubik);
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -805,7 +805,7 @@ nav.site-nav > i {
 }
 .just-imagine-content p {
     color: #555D67;
-    font-family:var(--var(--rubik));
+    font-family:var(--rubik);
     font-size: 48px;
     font-style: normal;
     font-weight: 300;
@@ -825,7 +825,7 @@ nav.site-nav > i {
 }
 .timing button {
     color: #555D67;
-    font-family: var(--var(--rubik));
+    font-family: var(--rubik);
     font-size: 40px;
     font-weight: 500;
     line-height: 128.5%;

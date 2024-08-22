@@ -1,3 +1,18 @@
+@media screen and (max-width:1400px){
+    .acc-head {
+        padding: 30px 30px 30px 120px;
+    }
+    .acc-content {
+        padding: 0 10px 30px 120px;
+    }
+    .acc-head h4 {
+        font-size: 26px;
+    }
+    .acc-content p {
+        font-size: 22px;
+        line-height: normal;
+    }
+}
 @media screen and (max-width:1200px){
     .site-banner {
         height: 700px;
@@ -59,11 +74,51 @@
     .benefits-list ul li {
         padding: 25px 0;
     }
+    .section-title {
+        font-size: 68px;
+        text-align: center;
+    }
+    .sub-title {
+        font-size: 32px;
+    }
+    .testimonial-content .section-title {
+        text-align: center;
+    }
+    .testimonial-content > p {
+        font-size: 42px;
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .just-imagine-content h4, .just-imagine-content h3 {
+        font-size: 40px;
+    }
+    .just-imagine-content p {
+        font-size: 36px;
+    }
+    .just-imagine-content .M-clr_btn {
+        margin-top: 30px;
+    }
+    .timing button {
+        font-size: 28px;
+    }
+    .diff-heading {
+        font-size: 62px;
+    }
+    .acc-head h4 {
+        font-size: 22px;
+    }
+    .acc-content p {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width:991px){
     .site-banner {
         height: 600px;
         padding-top: 100px;
+    }
+    .site-banner-warp .grid {
+        grid-template-columns: 1fr 1.1fr;
     }
     .stack-cards .card  p {
         font-size: 48px;
@@ -98,8 +153,49 @@
     .check-list li p {
         font-size: 20px;
     }
+    .section-title {
+        font-size: 58px;
+    }
+    .sub-title {
+        font-size: 26px;
+    }
+    .testimonial-content > p {
+        font-size: 28px;
+        max-width: 450px;
+    }
+    .just-imagine-content h4, .just-imagine-content h3 {
+        font-size: 32px;
+    }
+    .just-imagine-content p {
+        font-size: 28px;
+    }
+    .M-clr_btn a {
+        font-size: 18px;
+    }
+    .diff-heading {
+        font-size: 48px;
+    }
+    .acc-head {
+        padding: 25px 25px 25px 80px;
+    }
+    .acc-content {
+        padding: 0 10px 25px 80px;
+    }
+    .acc-head::before {
+        left: 40px;
+    }
+    .acc-head::after {
+        left: 31px;
+    }
 }
 @media screen and (max-width:768px){
+    .site-banner-warp .grid {
+        grid-template-columns: 100%;
+    }
+    .site-banner {
+        height: auto;
+        padding: 180px 0 120px;
+    }
     .stack-cards .card  p {
         font-size: 40px;
     }
@@ -136,11 +232,38 @@
     .benefits-list {
         grid-template-columns: 2fr 1fr;
     }
+    .just-imagine-wrap .grid {
+        grid-template-columns: 100%;
+    }
+    .just-imagine-content {
+        text-align: center;
+    }
+    .timing {
+        text-align: center;
+        padding-right: 0;
+        position: relative;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .footer-middle > .grid {
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }
+    .footer-social ul {
+        gap: 35px;
+        margin-bottom: 20px;
+    }
+    .footer-social p {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width:575px){
     .benefits-list {
         grid-template-columns: 1fr auto;
+    }
+    .footer-social ul {
+        gap: 20px;
     }
 }
 
