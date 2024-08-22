@@ -606,6 +606,9 @@ nav.site-nav > i {
     transform: translate(-100%, -100%);
     z-index: -1;
 }
+.testimonial-card-warp .qoute-img img {
+    width: 100%;
+}
 .testimonial-card-warp > .grid {
     grid-gap: min(4vw, 60px);
     grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
