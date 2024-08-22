@@ -682,9 +682,9 @@ nav.site-nav > i {
 }
 .cussive-line-shape {
     position: absolute;
-    top: -250px;
-    left: -190px;
+    top: 250px;
     z-index: -1;
+    left: 50px;
 }
 .acc-container {
     width: 100%;
