@@ -79,3 +79,22 @@ function updateTimer() {
 }
 
 setInterval(updateTimer, 1000);
+
+
+// Counter JS Start
+let count = document.querySelectorAll(".count");
+let arr = Array.from(count);
+arr.map(function (item) {
+  let startnumber = 0;
+  function counterup() {
+    startnumber++;
+    item.innerHTML = startnumber;
+    if (startnumber == item.dataset.number) {
+      clearInterval(stop);
+    }
+  }
+  let stop = setInterval(function () {
+    counterup();
+  }, 10);
+});
+// Counter JS End

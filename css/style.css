@@ -452,7 +452,24 @@ nav.site-nav > i {
     display: flex;
     align-items: end;
 }
+.views-card .top-content span {
+    text-align: center;
+    font-family: Lato;
+    font-size: 114px;
+    font-weight: 800;
+    line-height: 1;
+    background: linear-gradient(189deg, #AAE291 6.55%, #21273C 110.31%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
 .views-card .top-content h4 sub {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.views-card .top-content.counter-hour span {
     font-size: 50px;
     line-height: 1;
     margin-bottom: 10px;
