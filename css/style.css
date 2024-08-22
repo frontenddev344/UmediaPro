@@ -633,6 +633,7 @@ nav.site-nav > i {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 .testimonial > .container {
     max-width: 1360px;
@@ -648,6 +649,12 @@ nav.site-nav > i {
     top: 60px;
     transform: translate(-100%, -100%);
     z-index: -1;
+}
+.testimonial > .container > .qoute-img {
+    position: absolute;
+    top: 233px;
+    width: calc(100% - 4%);
+    left: 4%;
 }
 .testimonial-card-warp .qoute-img img {
     width: 100%;
