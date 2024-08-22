@@ -5,9 +5,9 @@
     width: calc(100% - 2%);
     left: 1%;
     }
-.qoute-img img {
-    width:200px!important;
-}
+    .qoute-img img {
+        width: 20%;
+    }
 }
 @media screen and (max-width:1400px){
     .acc-head {
@@ -240,6 +240,10 @@
     .the-diffrences-wrap {
         margin: 80px auto 0;
     }
+    .testimonial > .container > .qoute-img {
+        top: 220px;
+        left: 0;
+    }
 }
 @media screen and (max-width:768px){
     .site-banner-warp .grid {
@@ -403,5 +407,7 @@
     .check-list li p {
         font-size: 16px;
     }
-    
+    .testimonial > .container > .qoute-img {
+        top: 250px;
+    }
 }
