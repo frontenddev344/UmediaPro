@@ -758,7 +758,7 @@ nav.site-nav > i {
     height: 742px;
 }
 .faq-shape-2 img {
-    transform: translateX(-50px);
+    transform: translateX(-20px);
     height: 100%;
     width: 100%;
 }
@@ -807,7 +807,8 @@ nav.site-nav > i {
 .timing button {
     color: #555D67;
     font-family: var(--rubik);
-    font-size: 28px;
+    font-size: 40px;
+    font-weight: 500;
     line-height: 128.5%;
     background: #fff;
     border: 2px solid var(--green);
