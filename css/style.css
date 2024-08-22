@@ -320,7 +320,24 @@ nav.site-nav > i {
     justify-content: space-between;
     padding: 40px 30px;
 }
-
+/* .rec-asset::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 133px;
+    background: #000;
+    left: 30px;
+    top: 35px;
+}
+.rec-asset::after {
+    content: "";
+    position: absolute;
+    width: 133px;
+    height: 2px;
+    background: #000;
+    top: 35px;
+    left: 30px;
+} */
 
 /* card stack start  */
 .stack-cards {
@@ -504,7 +521,7 @@ nav.site-nav > i {
 /* views-sec end  */
 /* the-diffrences start  */
 .the-diffrences {
-    padding: 40px 0;
+    padding: 40px 0 80px;
 }
 .diff-heading {
     text-align: center;
@@ -524,11 +541,10 @@ nav.site-nav > i {
     margin: 100px auto 0;
 }
 .the-diffrences-wrap .grid {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     grid-gap: 20px;
 }
-
 .media-logo {
     display: flex;
     align-items: center;
