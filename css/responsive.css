@@ -321,6 +321,9 @@
     .views-card .top-content h4 {
         font-size: 68px;
     }
+    .views-card .top-content span {
+        font-size: 68px;
+    }
     .views-card .top-content::before {
         inset: 5px;
     }
