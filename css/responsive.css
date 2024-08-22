@@ -244,6 +244,12 @@
         top: 220px;
         left: 0;
     }
+    .faq-sec-content {
+        margin-top: 80px;
+    }
+    .cussive-line-shape {
+        top: 180px;
+    }
 }
 @media screen and (max-width:768px){
     .site-banner-warp .grid {
@@ -396,6 +402,9 @@
     }
     ul.cross-list {
         display: none;
+    }
+    .faq-sec-content {
+        margin-top: 40px;
     }
 }
 
