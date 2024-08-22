@@ -427,6 +427,16 @@ nav.site-nav > i {
     inset: 12px;
     background-repeat: no-repeat;
     background-position: top left;
+    /* animation: rotate360 5s infinite; */
+}
+
+@keyframes rotate360 {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 .views-sec-wrap .grid .item:nth-of-type(2) .top-content::before {
     transform: rotate(30deg);
