@@ -474,7 +474,6 @@ nav.site-nav > i {
     stroke: url(#gradient);
     stroke-width: 6px;
     fill: transparent;
-    /* animation: progressAnimation 3s linear forwards; */
     position: absolute;
     top: 34px;
     left: 32px;

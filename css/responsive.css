@@ -356,6 +356,11 @@
     .card_content p {
         font-size: 22px;
     }
+    .animated-line {
+        top: 15px;
+        left: 15px;
+        transform: scale(1.1);
+    }
 }
 
 @media screen and (max-width:575px){
