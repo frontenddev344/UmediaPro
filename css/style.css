@@ -440,24 +440,60 @@ nav.site-nav > i {
     margin: 0 auto;
     position: relative;
 }
-.views-card .top-content::before {
+/* .views-card .top-content::before {
     content: "";
     position: absolute;
     background: url("../images/curve-line.svg");
-    inset: 12px;
     background-repeat: no-repeat;
     background-position: top left;
-    /* animation: rotate360 5s infinite; */
+    inset: 12px;
+    animation: rotate360 5s infinite;
+} */
+
+/* .views-card .top-content::before {
+    content: "";
+    position: absolute;
+    background: url("../images/curve-line.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    inset: 12px;
+    animation: rotate360 2s  linear;
+    border-radius: 50%;
+    background: linear-gradient(189deg, #AAE291 6.55%, #21273C 110.31%);
+} */
+/* .views-card .top-content::after {
+    content: "";
+    inset: 30px;
+    position: absolute;
+    border-radius: inherit;
+    background: #F1F1F1;
+} */
+
+
+.animated-line {
+    stroke: url(#gradient);
+    stroke-width: 6px;
+    fill: transparent;
+    /* animation: progressAnimation 3s linear forwards; */
+    position: absolute;
+    top: 34px;
+    left: 32px;
+    transform: scale(1.3);
+}
+.top-content.active .animated-line{
+    animation: progressAnimation 2s linear forwards;
 }
 
-@keyframes rotate360 {
-    0%{
-        transform: rotate(0);
+
+  @keyframes progressAnimation {
+    0% {
+      stroke-dasharray: 0, 565; 
     }
-    100%{
-        transform: rotate(360deg);
+    100% {
+      stroke-dasharray: 585, 180; 
     }
-}
+
+  }
 .views-sec-wrap .grid .item:nth-of-type(2) .top-content::before {
     transform: rotate(30deg);
 }
@@ -481,6 +517,8 @@ nav.site-nav > i {
     margin-bottom: 15px;
     display: flex;
     align-items: end;
+    position: relative;
+    z-index: 1;
 }
 .views-card .top-content span {
     text-align: center;
@@ -493,6 +531,8 @@ nav.site-nav > i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
 }
 .views-card .top-content h4 sub {
     font-size: 50px;
@@ -1004,4 +1044,7 @@ nav.site-nav > i {
     align-items: center;
     gap: 30px;
 }
+
+  
+
 
