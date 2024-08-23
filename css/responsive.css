@@ -6,7 +6,7 @@
     left: 1%;
     }
     .qoute-img img {
-        width: 20%;
+        width: 17%;
     }
 }
 @media screen and (max-width:1400px){
@@ -417,6 +417,12 @@
     .stack-cards {
         padding: 40px 0;
     }
+    .time {
+        font-size: 12rem;
+    }
+    .media-text h3 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width:460px){
@@ -430,4 +436,5 @@
     .testimonial > .container > .qoute-img {
         top: 250px;
     }
+   
 }
