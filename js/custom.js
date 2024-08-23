@@ -41,7 +41,7 @@ gsap.to(".box",{
   })
   
   tl.from("nav.site-nav a", {
-  x:100,
+  x:80,
   duration:0.4,
   stagger:0.2
   });
