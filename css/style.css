@@ -316,29 +316,15 @@ nav.site-nav > i {
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     padding: 40px 30px;
+    padding: 2.5vw 2vw;
 }
-/* .rec-asset::before {
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 133px;
-    background: #000;
-    left: 30px;
-    top: 35px;
+.banner-img > figure img {
+    width: 100%;
 }
-.rec-asset::after {
-    content: "";
-    position: absolute;
-    width: 133px;
-    height: 2px;
-    background: #000;
-    top: 35px;
-    left: 30px;
-} */
-
 /* card stack start  */
 .stack-cards {
     padding: 110px 0;
@@ -440,35 +426,6 @@ nav.site-nav > i {
     margin: 0 auto;
     position: relative;
 }
-/* .views-card .top-content::before {
-    content: "";
-    position: absolute;
-    background: url("../images/curve-line.svg");
-    background-repeat: no-repeat;
-    background-position: top left;
-    inset: 12px;
-    animation: rotate360 5s infinite;
-} */
-
-/* .views-card .top-content::before {
-    content: "";
-    position: absolute;
-    background: url("../images/curve-line.svg");
-    background-repeat: no-repeat;
-    background-position: top left;
-    inset: 12px;
-    animation: rotate360 2s  linear;
-    border-radius: 50%;
-    background: linear-gradient(189deg, #AAE291 6.55%, #21273C 110.31%);
-} */
-/* .views-card .top-content::after {
-    content: "";
-    inset: 30px;
-    position: absolute;
-    border-radius: inherit;
-    background: #F1F1F1;
-} */
-
 
 .animated-line {
     stroke: url(#gradient);
